@@ -6,7 +6,7 @@ Documentação abstrata do protocolo **powerUDP**, um protocolo de camada de tra
 
 - [Visão Geral do Sistema](#visao-geral-do-sistema)
 - [Funcionalidades do PowerUDP](#funcionalidades-do-powerUDP)
-- [Estrutura de dados e mapeamento do protocolo](#estrutura-de-daddos-e-mapeamento-do-protocolo)
+- [Estruturas de dados e mapeamento do protocolo](#estruturas-de-daddos-e-mapeamento-do-protocolo)
 - [Arquitetura do Servidor](#arquitetura-do-servidor)
 - [Arquitetura do Cliente](#arquitetura-do-cliente)
 - [Protocolo powerUDP & Algoritmos de Fiabilidade](#Protocolo-powerUDP-&-Algoritmos-de-Fiabilidade)
