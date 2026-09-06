@@ -9,7 +9,7 @@ Documentação abstrata do protocolo **powerUDP**, um protocolo de camada de tra
 - [Estruturas de Dados e Mapeamento do Protocolo](#estruturas-de-dados-e-mapeamento-do-protocolo)
 - [Arquitetura do Servidor](#arquitetura-do-servidor)
 - [Arquitetura do Cliente](#arquitetura-do-cliente)
-- [Protocolo powerUDP & Algoritmos de Fiabilidade](#protocolo-powerUDP-&-algoritmos-de-fiabilidade)
+- [Protocolo powerUDP e Algoritmos de Fiabilidade](#protocolo-powerUDP-e-algoritmos-de-fiabilidade)
 - [Cenário de Rede e NAT em GNS3](#Cenário-de-Rede-e-NAT-em-GNS3)
 - [Autores](#autores)
 
@@ -159,7 +159,7 @@ Thread dedicada à escuta no socket UDP. Constrói a mensagem original concatena
 
 ---
 
-## Protocolo powerUDP & Algoritmos de Fiabilidade
+## Protocolo powerUDP e Algoritmos de Fiabilidade
 
 O algoritmo em `send_message()` implementa os seguintes mecanismos de controlo:
 
