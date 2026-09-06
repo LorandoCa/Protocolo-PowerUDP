@@ -2,10 +2,6 @@
 // LORANDO TOME CA (PL8) & MIGUEL ANGELO LOURENCO FERNANDES (PL8)
 //
 
-// PONTOS ALTERADOS
-// 1. o server agora utiliza threads para lidar com a ligacao dos clientes
-// 2. o server usa uma thread especifica para enviar as novas configs aos clientes (broadcast)
-// 3. o servidor agora tens semaforos para garantir que multiplas threads nao alteram a config atual simultaneamente
 
 #include <stdio.h>
 #include <string.h>
