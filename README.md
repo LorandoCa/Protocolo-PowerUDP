@@ -213,3 +213,9 @@ A validação do projeto decorre sobre uma infraestrutura virtualizada em GNS3:
 ```
 [Sub-rede Clientes] <---> [Router com SNAT/DNAT] <---> [Sub-rede Servidor (10.20.0.129)]
 ```
+
+---
+## Autores 
+
+- LORANDO TOMÉ CÁ - lorandotomec@gmail.com
+- MIGUEL ANGELO LOURENCO FERNANDES
