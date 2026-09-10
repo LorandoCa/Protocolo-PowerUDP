@@ -4,7 +4,7 @@ Documentação técnica do protocolo **powerUDP**, um protocolo de camada de tra
 
 ## 📋 Índice
 
-- [Visão Geral do Sistema](#visao-geral-do-sistema)
+- [Visão Geral do Sistema](#visão-geral-do-sistema)
 - [Funcionalidades do PowerUDP](#funcionalidades-do-powerUDP)
 - [Estruturas de Dados e Mapeamento do Protocolo](#estruturas-de-dados-e-mapeamento-do-protocolo)
 - [Arquitetura do Servidor](#arquitetura-do-servidor)
