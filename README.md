@@ -7,8 +7,8 @@ Documentação técnica do protocolo **powerUDP**, um protocolo de camada de tra
 - [Visão Geral do Sistema](#visão-geral-do-sistema)
 - [Funcionalidades do PowerUDP](#funcionalidades-do-powerUDP)
 - [Estruturas de Dados e Mapeamento do Protocolo](#estruturas-de-dados-e-mapeamento-do-protocolo)
-- [Arquitetura do Servidor](#arquitetura-do-servidor)
-- [Arquitetura do Cliente](#arquitetura-do-cliente)
+- [Arquitetura do Servidor](#arquitetura-do-servidor-(`server.c`))
+- [Arquitetura do Cliente](#arquitetura-do-cliente-(`client.c`))
 - [Protocolo powerUDP e Algoritmos de Fiabilidade](#protocolo-powerUDP-e-algoritmos-de-fiabilidade)
 - [Cenário de Rede e NAT em GNS3](#Cenário-de-Rede-e-NAT-em-GNS3)
 - [Autores](#autores)
@@ -97,7 +97,7 @@ typedef struct response {
 
 ---
 
-## Arquitetura do Servidor (`serverProj_edit.c`)
+## Arquitetura do Servidor (`server.c`)
 
 O servidor de controlo foi desenhado para ser concorrente e thread-safe.
 
@@ -130,7 +130,7 @@ O servidor de controlo foi desenhado para ser concorrente e thread-safe.
 
 ---
 
-## Arquitetura do Cliente (`cliente3.1_edit.c`)
+## Arquitetura do Cliente (`client.c`)
 
 O cliente implementa um modelo assíncrono e não-bloqueante para o utilizador:
 
