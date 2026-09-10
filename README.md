@@ -1,4 +1,5 @@
 Documentação técnica do protocolo **powerUDP**, um protocolo de camada de transporte fiável desenvolvido em linguagem **C** sobre a API de Sockets POSIX. O projeto contempla um servidor central de controlo (TCP/Multicast), clientes concorrentes (*multithreaded*). Para casos teste, terá sido feita uma simulação de topologia de rede no **GNS3** e a implementação do protocolo nos integrantes da rede. 
+#### Nota: No repositório somente está disponibilizado o código fonte.
 
 ---
 
